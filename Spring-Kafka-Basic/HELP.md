@@ -1,5 +1,30 @@
 # Getting Started
 
+
+how to Run this project:
+
+step 1 : run zookeeper using this cmd :::.   \bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+
+step 2 : run Kafka using this cmd:::   .\bin\windows\kafka-server-start.bat .\config\server.properties
+
+step3: run project 
+
+step 4 : go to postman ,change mapping url GET to POST and write this url : http://localhost:9090/pushMessage
+
+step5: in body write json:
+{
+	"name":"Raja ravish kumar",
+	"address":"Angree",
+	"city":"Gwalior",
+	"country":"India"
+}
+
+step 6: click on send .
+
+OK see the console
+
+
+
 ### Reference Documentation
 For further reference, please consider the following sections:
 
