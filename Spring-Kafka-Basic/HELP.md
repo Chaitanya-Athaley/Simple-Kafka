@@ -3,11 +3,11 @@
 
 how to Run this project:
 
-step 1 : run zookeeper using this cmd :::.   \bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+step 1 : run zookeeper using this cmd ::: C:\kafka>.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
 
-step 2 : run Kafka using this cmd:::   .\bin\windows\kafka-server-start.bat .\config\server.properties
+step 2 : run Kafka using this cmd::: C:\kafka>.\bin\windows\kafka-server-start.bat .\config\server.properties
 
-step3: run project 
+step 3 : run project 
 
 step 4 : go to postman ,change mapping url GET to POST and write this url : http://localhost:9090/pushMessage
 
